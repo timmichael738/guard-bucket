@@ -1,0 +1,36 @@
+{
+  "name": "guard-bucket",
+  "version": "1.0.0",
+  "description": "Lightweight Express middleware for JWT auth, token-bucket rate limiting, and RBAC — configurable factories, no assumptions about your data shape.",
+  "main": "index.js",
+  "files": [
+    "src",
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "express",
+    "middleware",
+    "jwt",
+    "auth",
+    "authentication",
+    "rate-limit",
+    "rate-limiter",
+    "token-bucket",
+    "rbac",
+    "authorization"
+  ],
+  "author": "Michael Aduragbemi Timothy",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.3"
+  },
+  "devDependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jest": "^30.5.2"
+  }
+}
